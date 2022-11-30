@@ -1,19 +1,34 @@
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 section > div {
+  font-style: italic;
   border-left: 3px solid #ffd977;
   width: 100%;
   padding-left: 1rem;
   grid-template-columns: min-content 1fr;
   row-gap: 0.25rem;
   text-align: left;
+  color: rgb(151, 0, 0);
+  
+    280deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(254, 255, 121, 1) 79%
+  );
 }
-section > quote {
+section > div > a {
+    color: rgb(0, 111, 151);
+}
+section > figcaption {
+  padding-top: 0.2em;
+  padding-bottom: 1rem;
   color: grey;
 }
 .partof {
+  color: rgb(0, 111, 151);
   font-style: italic;
   border-top: 2px solid #ffd977;
   background: rgb(255, 255, 255);
@@ -22,7 +37,22 @@ section > quote {
     rgba(255, 255, 255, 1) 0%,
     rgba(254, 255, 121, 1) 79%
   );
+  height: 4rem;
 }
 article {
   text-align: left;
+}
+article > p {
+  font-style: italic;
+}
+article > hr {
+  height: 1px;
+  background: rgb(0, 111, 151);
+}
+
+footer {
+    text-align: left;
+}
+footer > p > a {
+    color: rgb(0, 111, 151);
 }
