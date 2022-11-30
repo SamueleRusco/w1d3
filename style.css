@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+section > div {
+  border-left: 3px solid #ffd977;
+  width: 100%;
+  padding-left: 1rem;
+  grid-template-columns: min-content 1fr;
+  row-gap: 0.25rem;
+  text-align: left;
+}
+section > quote {
+  color: grey;
+}
+.partof {
+  font-style: italic;
+  border-top: 2px solid #ffd977;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(254, 255, 121, 1) 79%
+  );
+}
+article {
+  text-align: left;
+}
